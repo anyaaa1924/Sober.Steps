@@ -1,0 +1,50 @@
+/* src/components/LoginPage.css */
+.login {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .login h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login label {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .login input {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login button {
+    background-color: #ffdab9; /* Peach */
+    border: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem;
+    transition: color 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .login button:hover {
+    color: white;
+    background-color: #ff69b4; /* Darker shade of pink */
+  }
+  

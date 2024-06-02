@@ -1,0 +1,84 @@
+.header {
+    background-color: #eba2ae; /* Light baby pink */
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    position: relative; /* Ensure the positioning context for the login button */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header:hover {
+    background-color: #f1aace; /* Darker shade of pink */
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    background: linear-gradient(to left, #89154f, #d5596e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 1280px;
+    margin-top: 5px;
+    font-family: cursive;
+    font-family: cursive;
+    font-size: 2rem; /* Adjusted font size */
+    position: absolute; /* Positioned absolutely */
+    left: 1rem; /* Positioned to the left */
+    top: 10%
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0 0;
+}
+
+.header nav ul li {
+    margin: 0 1rem;
+}
+
+.header nav ul li a {
+    color: inherit; /* Use inherited color */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.header nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: #ff69b4; /* Darker shade of pink */
+}
+
+.login-button {
+    background-color: #eac9ab; /* Peach */
+    border: none;
+    color: inherit; /* Use inherited color */
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0.5rem 1rem;
+    transition: color 0.3s, background-color 0.3s;
+    cursor: pointer;
+    position: absolute; /* Position it absolutely within the header */
+    right: 1rem;
+    top: 40%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    color: rgb(12, 11, 11);
+    text-decoration: underline;
+    background-color: #e34594; /* Darker shade of pink */
+}

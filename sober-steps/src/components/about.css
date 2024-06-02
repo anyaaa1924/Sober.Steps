@@ -1,0 +1,161 @@
+.about {
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #333;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.horizontal-containers {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  opacity: 0;
+  animation: slideIn 1s forwards;
+}
+
+.container {
+  background-color: #d0afaf;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.container h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #444242;
+}
+
+.team-section {
+  margin-top: 3rem;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  border: 2px solid white; /* Add white border */
+  padding: 1rem; /* Add padding to create space around the content */
+}
+
+.team-section:hover {
+  border-color: #ccc; /* Change border color on hover */
+}
+
+.team-section h3 {
+  font-size: 2.4rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Change to wrap to allow multiple rows */
+}
+
+.team-member {
+  flex: 0 1 25%;
+  margin: 0.5rem;
+  max-width: 200px;
+  border: 3px solid white; /* Add white border */
+  border-radius: 10px; /* Round corners */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 10px; /* Round corners */
+  max-height: 500px;
+  height: 250px;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+  color: #2c2727;
+  margin-top: 0.5rem;
+  font-family: monospace;
+}
+
+
+.faq-section {
+  margin-top: 3rem;
+  opacity: 0;
+  animation: slideIn 1s forwards;
+}
+
+.faq-section h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.faq {
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.faq-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.faq-content {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
