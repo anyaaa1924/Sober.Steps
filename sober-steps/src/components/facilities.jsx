@@ -12,7 +12,10 @@ const FacilitiesPage = () => (
           </div>
           <h3>Sobriety Calendar</h3>
           <p>Track your progress with our sobriety calendar.</p>
-          <button className="facility-button">Explore</button>
+          <a href="https://workspace.google.com/intl/en-GB/products/calendar/" target="_blank" rel="noopener noreferrer" className="facility-button">
+  Explore
+</a>
+
         </div>
         <div className="facility-section">
           <div className="icon-container">
@@ -28,7 +31,9 @@ const FacilitiesPage = () => (
           </div>
           <h3>Locate Nearby Rehab Centers</h3>
           <p>Find nearby rehab centers for support.</p>
-          <button className="facility-button">Locate Now</button>
+          <a href="https://www.google.com/maps/" target="_blank" rel="noopener noreferrer" className="facility-button">
+  Locate Now
+</a>
         </div>
       </div>
     </main>
