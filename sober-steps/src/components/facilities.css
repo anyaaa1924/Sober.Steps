@@ -1,14 +1,19 @@
+/* facilities.css */
+
 .facilities {
   text-align: center;
   padding: 2rem;
-  
+  background-image: url('bac.jpg'); /* Add your background image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the background covers the entire section */
 }
 
 .facilities h2 {
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 1rem; /* Add margin below the heading */
-  margin-left: 2000px;
 }
 
 .facilities p {

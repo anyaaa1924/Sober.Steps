@@ -57,7 +57,7 @@
     background-color: #ff69b4; /* Darker shade of pink */
 }
 
-.login-button {
+.header-login-button {
     background-color: #eac9ab; /* Peach */
     border: none;
     color: inherit; /* Use inherited color */

@@ -1,50 +1,93 @@
-/* src/components/LoginPage.css */
-.login {
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  .login h2 {
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  .login form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .login label {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    color: #666;
-  }
-  
-  .login input {
-    padding: 0.5rem;
-    margin-left: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .login button {
-    background-color: #ffdab9; /* Peach */
-    border: none;
-    color: black;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    margin: 1rem;
-    transition: color 0.3s, background-color 0.3s;
-    cursor: pointer;
-  }
-  
-  .login button:hover {
-    color: white;
-    background-color: #ff69b4; /* Darker shade of pink */
-  }
-  
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4)), url('./sun.jfif');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(20px);
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.remember-me input {
+  margin-right: 0.5rem;
+}
+
+.error-notification {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ffd700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #ffc107;
+}
+
+.forgot-password, .signup-text {
+  margin-top: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: bold;
+}

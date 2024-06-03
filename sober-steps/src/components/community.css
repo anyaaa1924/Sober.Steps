@@ -1,9 +1,14 @@
+/* home.css */
+
 .community {
   text-align: center;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url('bac.jpg'); /* Add your background image path */
+  background-size: cover;
+  background-position: center;
 }
 
 .community h2 {

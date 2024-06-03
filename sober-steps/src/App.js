@@ -8,27 +8,25 @@ import ResourcesPage from './components/resorces';
 import CommunityPage from './components/community';
 import FacilitiesPage from './components/facilities';
 import LoginPage from './components/login';
+import Signup from './components/signup'; // Add this line
 import Preloader from './components/preloader';
 import './App.css';
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
 
-  const handleLogout = () => {
-    setLoggedIn(false);
-  };
-
   return (
     <Router>
       <div className="app">
-        <Header loggedIn={loggedIn} handleLogout={handleLogout} />
+        <Header loggedIn={loggedIn} />
         <Routes>
           <Route path="/" element={<HomeWithPreloader />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/community" element={<CommunityPage />} />
           <Route path="/facilities" element={<FacilitiesPage />} />
-          <Route path="/login" element={<LoginPage setLoggedIn={setLoggedIn} />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<Signup />} /> {/* Add this line */}
         </Routes>
         <Footer />
       </div>

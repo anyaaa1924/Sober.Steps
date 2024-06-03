@@ -1,8 +1,13 @@
+/* home.css */
+
 .about {
   text-align: center;
   padding: 2rem;
   font-weight: bold;
   font-size: xx-large;
+  background-image: url('bac.jpg'); /* Add your background image path */
+  background-size: cover;
+  background-position: center;
 }
 
 .about h2 {

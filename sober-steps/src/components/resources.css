@@ -1,18 +1,4 @@
-.resources {
-  text-align: center;
-  padding: 2rem;
-}
-
-.resources h2 {
-  font-size: 2.5rem;
-  color: #333;
-  margin-top: 0; /* Remove default margin */
-}
-
-.resources p {
-  font-size: 1.2rem;
-  color: #666;
-}
+/* resources.css */
 
 .resource-types {
   display: flex;
@@ -25,7 +11,10 @@
 .resource-type {
   width: 350px;
   height: 350px;
-  background: linear-gradient(to bottom, #add8e6 0%, #87ceeb 100%);
+  background-image: url('bac.jpg'); /* Add your background image path */
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,66 +22,18 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-}
-
-.resource-type.articles {
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 75% 100%, 0 100%);
-  border-radius: 0; /* Custom shape for articles */
-}
-
-.resource-type.videos {
-  clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
-  border-radius: 0; /* Custom shape for videos */
-}
-
-.resource-type.notes {
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 75% 100%, 0 100%);
-  border-radius: 0; /* Custom shape for notes */
-}
-
-.resource-type.worksheets {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  border-radius: 0; /* Custom shape for worksheets */
-}
-
-.resource-type.photos {
-  clip-path: circle(50% at 50% 50%);
-  border-radius: 50%; /* Custom shape for photos */
-}
-
-.resource-type.voice-recordings {
-  clip-path: ellipse(50% 75% at 50% 50%);
-  border-radius: 50%; /* Custom shape for voice recordings */
+  border-radius: 20px; /* Rounded edges */
 }
 
 .resource-type h3 {
-  font-size: 2.5rem; /* Increased font size */
-  color: #333;
+  font-size: 2.5rem;
+  color: #292323; /* White text color */
   margin-top: 0;
 }
 
 .resource-type i {
-  font-size: 8rem; /* Increased size of icons */
-}
-
-.resource-type ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.resource-type ul li {
-  margin-bottom: 0.5rem;
-}
-
-.resource-type ul li a {
-  text-decoration: none;
-  color: #98bfe8;
-  font-size: 1.5rem;
-}
-
-.resource-type ul li a:hover {
-  text-decoration: underline;
+  font-size: 8rem;
+  color: #fff; /* White icon color */
 }
 
 .resource-button {
