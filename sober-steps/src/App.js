@@ -10,6 +10,7 @@ import FacilitiesPage from './components/facilities';
 import LoginPage from './components/login';
 import Signup from './components/signup'; // Add this line
 import Preloader from './components/preloader';
+import RewardsPage from './components/rewards';
 import './App.css';
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/facilities" element={<FacilitiesPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<Signup />} /> {/* Add this line */}
+          <Route path="/rewards" element={<RewardsPage />} />
         </Routes>
         <Footer />
       </div>

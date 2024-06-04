@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiCalendarEvent, BiMessageRoundedDetail, BiMapPin } from 'react-icons/bi';
+import { BiCalendarEvent, BiMessageRoundedDetail, BiMapPin,BiMaleFemale } from 'react-icons/bi';
 import './facilities.css';
 
 const FacilitiesPage = () => (
@@ -35,6 +35,17 @@ const FacilitiesPage = () => (
   Locate Now
 </a>
         </div>
+        <div className="facility-section">
+          <div className="icon-container">
+            <BiMaleFemale size={40} /> {/* Consultation icon */}
+          </div>
+          <h3>Want to find work? Get hired!</h3>
+
+          <p>Employment oppurtunities for you.</p>
+          <button className="facility-button">Click here</button>
+        </div>
+
+
       </div>
     </main>
   </div>

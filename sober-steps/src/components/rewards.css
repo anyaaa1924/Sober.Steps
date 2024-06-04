@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, sans-serif';
+    background: url('bac.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .rewards {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .rewards h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .reward-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .reward-section {
+    width: 300px;
+    padding: 2rem;
+    margin: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .reward-section h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #dcc921;
+  }
+  
+  .reward-section p {
+    font-size: 1.2rem;
+    color: #f0e68c;
+  }
+  
+  .reward-section:hover {
+    transform: translateY(-5px);
+  }
+  
+  .reward-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ffd700; /* Gold color */
+  }
+  
+  .champion {
+    background: linear-gradient(to bottom right, #d680d5, #ac1889);
+  }
+  
+  .star {
+    background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+  }
+  
+  .supreme {
+    background: linear-gradient(to bottom right, #ff512f, #dd2476);
+  }
+  

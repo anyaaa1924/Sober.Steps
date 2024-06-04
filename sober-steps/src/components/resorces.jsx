@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaNewspaper, FaVideo, FaStickyNote, FaFileAlt, FaImage, FaMicrophone } from 'react-icons/fa'; // Import relevant icons
+import { FaNewspaper, FaVideo, FaStickyNote, FaFileAlt, FaImage,  FaTrophy } from 'react-icons/fa'; // Import relevant icons
 import './resources.css';
 
 const ResourcesPage = () => (
@@ -31,9 +31,9 @@ const ResourcesPage = () => (
         <button className="resource-button" onClick={() => window.open("https://www.aa.org", "_blank")}>Take Me There</button>
       </div>
       <div className="resource-type voice-recordings">
-        <FaMicrophone className="resource-icon" />
-        <h3>Voice Recordings</h3>
-        <button className="resource-button" onClick={() => window.open("https://www.aa.org", "_blank")}>Take Me There</button>
+        < FaTrophy className="resource-icon"  />
+        <h3>Rewards</h3>
+        <button className="resource-button" onClick={() => window.location.href='/rewards'}>Take Me There</button>
       </div>
     </div>
   </main>

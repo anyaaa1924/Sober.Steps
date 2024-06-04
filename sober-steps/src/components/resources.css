@@ -11,10 +11,10 @@
 .resource-type {
   width: 350px;
   height: 350px;
-  background-image: url('bac.jpg'); /* Add your background image path */
+   /* Add your background image path */
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+  background-color: rgba(222, 137, 210, 0.7); /* Transparent black background */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 .resource-type h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #292323; /* White text color */
   margin-top: 0;
 }
@@ -37,7 +37,7 @@
 }
 
 .resource-button {
-  background-color: #e09ad3; /* Pink color */
+  background-color: #c647af; /* Pink color */
   color: white;
   padding: 20px 20px; /* Increased padding */
   border-radius: 20px;
@@ -49,4 +49,7 @@
 
 .resource-button:hover {
   background-color: #ff69b4; /* Lighter pink color on hover */
+}
+.resource-icon {
+  font-size: 28px; /* Adjust the size as needed */
 }
