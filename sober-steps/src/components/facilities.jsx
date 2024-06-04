@@ -23,7 +23,9 @@ const FacilitiesPage = () => (
           </div>
           <h3>Consultation</h3>
           <p>Get professional consultation for your journey.</p>
-          <button className="facility-button">Consult Now</button>
+          <a href="https://pib.gov.in/newsite/PrintRelease.aspx?relid=177380" target="_blank" rel="noopener noreferrer" className="facility-button">
+  Consult Now
+</a> 
         </div>
         <div className="facility-section">
           <div className="icon-container">
@@ -31,7 +33,7 @@ const FacilitiesPage = () => (
           </div>
           <h3>Locate Nearby Rehab Centers</h3>
           <p>Find nearby rehab centers for support.</p>
-          <a href="https://www.google.com/maps/" target="_blank" rel="noopener noreferrer" className="facility-button">
+          <a href="https://www.google.com/maps/search/Alcoholics+Anonymous/@13.0877343,77.5590357,12z/data=!3m1!4b1?entry=ttu" target="_blank" rel="noopener noreferrer" className="facility-button">
   Locate Now
 </a>
         </div>
