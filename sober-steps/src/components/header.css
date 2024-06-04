@@ -1,6 +1,6 @@
 .header {
-    background-color: #eba2ae; /* Light baby pink */
-    color: black;
+    background-color: #221e1f; /* Light baby pink */
+    color: rgb(220, 170, 209);
     padding: 1rem;
     text-align: center;
     position: relative; /* Ensure the positioning context for the login button */
@@ -8,13 +8,13 @@
 }
 
 .header:hover {
-    background-color: #f1aace; /* Darker shade of pink */
+    background-color: #2639a5; /* Darker shade of pink */
     color: white;
 }
 
 .header h1 {
     margin: 0;
-    background: linear-gradient(to left, #89154f, #d5596e);
+    background: linear-gradient(to left, #d990b5, #c77684);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -52,15 +52,15 @@
 }
 
 .header nav ul li a:hover {
-    color: white;
+    color: rgb(20, 16, 16);
     text-decoration: underline;
-    background-color: #ff69b4; /* Darker shade of pink */
+    background-color: #d6dbdf; /* Darker shade of pink */
 }
 
 .header-login-button {
-    background-color: #eac9ab; /* Peach */
+    background-color: #b06107; /* Peach */
     border: none;
-    color: inherit; /* Use inherited color */
+    color: #221e1f; /* Use inherited color */
     padding: 0.5rem 1rem;
     text-align: center;
     text-decoration: none;
@@ -78,7 +78,7 @@
 }
 
 .login-button:hover {
-    color: rgb(12, 11, 11);
+    color: rgb(10, 3, 3);
     text-decoration: underline;
-    background-color: #e34594; /* Darker shade of pink */
+    background-color: #31c55e; /* Darker shade of pink */
 }

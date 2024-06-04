@@ -14,7 +14,7 @@
    /* Add your background image path */
   background-size: cover;
   background-position: center;
-  background-color: rgba(222, 137, 210, 0.7); /* Transparent black background */
+  background-color: rgba(42, 87, 165, 0.7); /* Transparent black background */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,7 +37,7 @@
 }
 
 .resource-button {
-  background-color: #c647af; /* Pink color */
+  background-color: #c6477e; /* Pink color */
   color: white;
   padding: 20px 20px; /* Increased padding */
   border-radius: 20px;
