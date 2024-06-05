@@ -1,40 +1,44 @@
-/* facilities.css */
+.facilities-header {
+  background-image: url('bac.jpg'); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: to fix the background while scrolling */
+  padding: 2rem;
+}
 
 .facilities {
   text-align: center;
   padding: 2rem;
-  background-image: url('bac.jpg'); /* Add your background image path */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh; /* Ensure the background covers the entire section */
+  color: #131010; /* Optional: to ensure text is readable on dark background */
 }
 
 .facilities h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #151010;
   margin-bottom: 1rem; /* Add margin below the heading */
 }
 
 .facilities p {
   font-size: 1.2rem;
-  color: #666;
+  color: #151212; /* Adjust text color for readability */
 }
 
 .facility-sections {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap; /* Ensure containers wrap to next line */
+  justify-content: center;
   margin-top: 3rem;
+  gap: 20px; /* Add gap between the containers */
 }
 
 .facility-section {
-  width: 300px;
+  width: calc(33.33% - 20px); /* Adjust width to ensure they fit three per row with gap */
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(239, 231, 231, 0.6); /* Black background with transparency */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  margin: 0 1rem; /* Add margin between the containers */
+  margin: 10px; /* Add margin to ensure proper spacing */
 }
 
 .facility-section:hover {
@@ -48,17 +52,17 @@
 
 .facility-section h3 {
   font-size: 1.8rem;
-  color: #333;
+  color: #191414;
 }
 
 .facility-section p {
   font-size: 1.2rem;
-  color: #666;
+  color: #201c1c;
   margin-bottom: 1rem;
 }
 
 .facility-button {
-  background-color: #07758b;
+  background-color: #c242ab;
   color: white;
   padding: 10px 20px;
   border: none;
